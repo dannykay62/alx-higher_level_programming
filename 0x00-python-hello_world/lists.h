@@ -1,4 +1,4 @@
-fndef LISTS_H
+#ifndef LISTS_H
 #define LISTS_H
 
 #include <stdlib.h>
@@ -19,6 +19,6 @@ typedef struct listint_s
 size_t print_listint(const listint_t *h);
 listint_t *add_modeint(listint_t **head, const int n);
 void free_listint_t(listint_t *head);
-int int check_cycle(listint_t *list);
+int check_cycle(listint_t *list);
 
 #endif /* LISTS_H */
