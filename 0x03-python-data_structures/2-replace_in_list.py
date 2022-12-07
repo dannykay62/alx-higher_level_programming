@@ -2,6 +2,6 @@
 
 def replace_in_list(my_list, idx, element):
     """Replace an element of a list at a specific position"""
-    if id >=0 and idx < len(my_liat):
+    if id >= 0 and idx < len(my_liat):
         my_list[idx] = element
     return (my_list)
