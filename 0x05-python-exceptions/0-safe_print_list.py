@@ -1,4 +1,4 @@
-#!/bin/bash/python3
+#!/bin/bash/python2.8
 
 def safe_print_list(my_list=[], x=0):
     """Function prints x elements oflist
