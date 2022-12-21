@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-"""Define a Python class MagicClass that does exactly the same as the following
-Python bytecode provided."""
-
 import math
+
+"""Define a Python class MagicClass that does exactly the same as the"""
+"""Python bytecode provided."""
 
 
 class MagicClass:
