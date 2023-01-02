@@ -17,7 +17,7 @@ Usage
 	>>> matrix = [
 	... 	[3, 6, 9],
 	... 	[12, 15, 18]
-	...]
+	... ]
 
 	>>> print(matrix_divided(matrix, 3))
 	[[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]]
@@ -61,7 +61,7 @@ The parameter ``matrix`` must be a list of lists consisting of either ints or fl
 	>>> matrix = "not a list"
 	>>> print(matrix_divided(matrix, 3))
 	Traceback (most recent call last):
-TyperError: matrix must be a matrix (list of lists) of integers/floats
+	TyperError: matrix must be a matrix (list of lists) of integers/floats
 
 Note that an empty list will raise TypeError.
 
