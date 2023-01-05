@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # 1-rectangle.py
-"""Defines a class Rectangle that defines a rectangle by:
-    (based on 0-rectangle.py)"""
+"""Defines a class Rectangle that defines a rectangle"""
 
 
 class Rectangle:
@@ -29,7 +28,7 @@ class Rectangle:
             raise TypeError("width must be an integer")
         if value < 0:
             raise TypeError("width must be >= 0")
-        self.width = value
+        self.__width = value
 
     @property
     def height(self):
@@ -42,4 +41,4 @@ class Rectangle:
             raise TypeError("height must be an integer")
         if value < 0:
             raise ValueError("height must be >= 0")
-        self.height = value
+        self.__height = value
