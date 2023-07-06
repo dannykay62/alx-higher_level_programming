@@ -4,8 +4,8 @@ variable X-Request-Id in the response header
 
 Usage: './5-hbtn_header.py <url>'
 """
-import sys
 import requests
+import sys
 
 
 if __name__ == "__main__":
